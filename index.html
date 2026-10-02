@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nazriya School System</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Saira:wght@500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        id="spinner">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-2"></i>+92 300 4210427</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@example.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a class="navbar-brand ms-4 ms-lg-0" href="index.html">
+                <h1 class="fw-bold text-primary custom-txt m-0">NSS</h1>
+            </a>
+            <button class="navbar-toggler me-4" data-bs-target="#navbarCollapse" data-bs-toggle="collapse"
+                type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="activities.html">Activities</a>
+                    <a class="nav-item nav-link" href="disaster-relief.html">Disaster Relief</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="index.html#donate">
+                        Donate Now
+                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="carousel slide" data-bs-ride="carousel" id="header-carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video autoplay="" class="w-100" loop="" muted="" playsinline=""
+                        src="video/main-page-video.mp4"></video>
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Help Us Build Schools,
+                                        Build Futures</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Every child deserves a
+                                        classroom, a book, and a chance to learn. Your donation helps us build schools
+                                        and bring quality education to children who need it most.</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img alt="Children playing together at Nazriya School System"
+                            class="position-absolute w-100 h-100 pt-5 pe-5" src="img/school/about-main.jpg"
+                            style="object-fit: cover;" />
+                        <img alt="Students learning with hands-on classroom activities"
+                            class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/school/about-accent.jpg"
+                            style="width: 200px; height: 200px;" />
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
+                        <h1 class="display-6 mb-5">We're Educating Pakistan's Children, One School At A Time</h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <p class="text-dark mb-2">Every child deserves the chance to learn, grow, and build a better
+                                future, no matter their background.</p>
+                            <span class="text-primary">Nazriya School System</span>
+                        </div>
+                        <p class="mb-5">Nazriya School System works across Pakistan to give underprivileged children
+                            access to quality education. From school supplies and trained teachers to safe classrooms
+                            and playgrounds, your donation helps us reach more children in the communities that need it
+                            most.</p>
+                        <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                        <a class="btn btn-outline-primary py-2 px-3" href="">
+                            Contact Us
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Causes Start -->
+    <div class="container-xxl bg-light my-5 py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
+                <h1 class="display-6 mb-5">Every Child Deserves The Opportunity To Learn</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Education</small>
+                            </div>
+                            <h5 class="mb-3">Quality Education For Every Child</h5>
+                            <p>Help us provide books, supplies, and a safe classroom for children at Nazriya School
+                                System</p>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img alt="Students at Nazriya School System" class="img-fluid"
+                                src="img/school/causes-education.jpg" />
+                            <div class="causes-overlay">
+                                <a class="btn btn-outline-primary" href="">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div
+                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Activities</small>
+                            </div>
+                            <h5 class="mb-3">Sports, Arts &amp; Fun Activities</h5>
+                            <p>From games and sports to art, music and cultural events, we help students grow and thrive
+                                beyond the classroom</p>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img alt="Students taking part in activities at Nazriya School System" class="img-fluid"
+                                src="img/school/gallery-05.jpg" />
+                            <div class="causes-overlay">
+                                <a class="btn btn-outline-primary" href="">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div
+                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Healthy Life</small>
+                            </div>
+                            <h5 class="mb-3">Health &amp; Well-Being For Students</h5>
+                            <p>We support regular health checkups, hygiene awareness, and nutritious meals so every
+                                child can learn and grow in good health</p>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img alt="Happy, healthy students at Nazriya School System" class="img-fluid"
+                                src="img/school/gallery-03.jpg" />
+                            <div class="causes-overlay">
+                                <a class="btn btn-outline-primary" href="">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Causes End -->
+    <!-- Gallery Start -->
+    <div class="container-xxl bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Gallery</div>
+                <h1 class="display-6 mb-5">Moments From Nazriya School System</h1>
+            </div>
+            <div class="owl-carousel gallery-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-01.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-02.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-04.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students learning" class="img-fluid w-100"
+                        src="img/school/gallery-06.jpg" style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System welcome event" class="img-fluid w-100"
+                        src="img/school/gallery-07.jpg" style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-08.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System staff meeting" class="img-fluid w-100"
+                        src="img/school/gallery-09.jpg" style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-10.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-11.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students learning" class="img-fluid w-100"
+                        src="img/school/gallery-12.jpg" style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System event" class="img-fluid w-100" src="img/school/gallery-13.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-14.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System event" class="img-fluid w-100" src="img/school/gallery-15.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-16.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System award ceremony" class="img-fluid w-100"
+                        src="img/school/gallery-17.jpg" style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-18.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+                <div class="gallery-item overflow-hidden rounded">
+                    <img alt="Nazriya School System students" class="img-fluid w-100" src="img/school/gallery-19.jpg"
+                        style="height: 280px; object-fit: cover;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
+                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img alt="" class="img-fluid mb-4" src="img/icon-1.png" />
+                        <h4 class="mb-3">Child Education</h4>
+                        <p class="mb-4">We provide books, school supplies, and dedicated teachers so every child at
+                            Nazriya School System has the tools to learn and succeed.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img alt="" class="img-fluid mb-4" src="img/icon-2.png" />
+                        <h4 class="mb-3">Medical Treatment</h4>
+                        <p class="mb-4">We arrange regular health checkups and basic medical care so students stay
+                            healthy and never miss a day of learning.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img alt="" class="img-fluid mb-4" src="img/icon-3.png" />
+                        <h4 class="mb-3">Pure Drinking Water</h4>
+                        <p class="mb-4">We work to ensure every classroom has access to clean, safe drinking water so
+                            students can focus on their studies.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Donate Start -->
+    <div class="container-fluid donate my-5 py-5" data-image-src="img/school/donate-bg.jpg" data-parallax="scroll"
+        id="donate">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Donate Now</div>
+                    <h1 class="display-6 text-white mb-5">Thanks For The Results Achieved With You</h1>
+                    <p class="text-white-50 mb-0">Your generosity directly funds books, classrooms, and teachers for
+                        children at Nazriya School System. Use the bank details below to send your donation, and help us
+                        give every child the education they deserve.</p>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-white p-5">
+                        <h4 class="mb-4">Donate Via Bank Transfer</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                                <span class="fw-bold text-dark">Account Title</span>
+                                <span class="text-body">Nazriya School System</span>
+                            </li>
+                            <li class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                                <span class="fw-bold text-dark">Bank Name</span>
+                                <span class="text-body">Meezan Bank</span>
+                            </li>
+                            <li class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                                <span class="fw-bold text-dark">Branch Code</span>
+                                <span class="text-body">0340</span>
+                            </li>
+                            <li class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                                <span class="fw-bold text-dark">Account No.</span>
+                                <span class="text-body">0115186037</span>
+                            </li>
+                            <li class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                                <span class="fw-bold text-dark">IBAN</span>
+                                <span class="text-body">PK41MEZN0003400115186037</span>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                                <span class="fw-bold text-dark">Swift Code</span>
+                                <span class="text-body">MEZNPKKAGRD</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donate End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">Chari<span class="text-white">Team</span></h1>
+                    <p>Nazriya School System is a Pakistan-based charity working to give underprivileged children access
+                        to quality education, activities, and community support.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+92 300 4210427</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="index.html#donate">Donate Now</a>
+                    <a class="btn btn-link" href="causes.html">Causes</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Subscribe to get updates on our programs, events, and how your support is making a difference.
+                    </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" placeholder="Your email"
+                            type="text" />
+                        <button class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                            type="button">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        © <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer authorâs credit link/attribution link/backlink. If you'd like to use the template without the footer authorâs credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a class="btn btn-lg btn-primary btn-lg-square back-to-top" href="#"><i class="bi bi-arrow-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
